@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-image: url("/school.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+  
+}
+
+label,fieldset {
+    color:#f5f5f5 ;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+label , input ,select {
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+
+
+input , select {
+    width: 200px;
+    height: 30px;
+}
+
+
+
+ 
+#submit {
+    background-color: #3D3D3D;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: whitesmoke;
+    margin-top: 50px;
+    padding: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+form {
+    margin:50px
+    
+}
+
+#table {
+    margin:50px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+
+header{
+    background-color:#1F1F1F ;
+    height: 100px;
+}
+
+h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    color: #f5f5f5;
+}
+
+#sec1 {
+    float: left;
+    background-color: rgba(114, 104, 211, 0.8) ;
+    margin-left: 100px;
+    
+}
+
+#sec2 {
+    float: right;
+    margin-right: 300px;
+    background-color: rgba(114, 104, 211, 0.8) ;
+    
+}
+main{
+    margin-top: 150px;
+}
+
+table, th, td {
+    border: 1px solid whitesmoke;
+    
+  } 
+
+
+  th {
+      background-color:#1F1F1F ;
+      color: whitesmoke;
+      text-align: center;
+      width: 150px;
+      height: 30px;
+     
+  }
+
+  tr {
+      background-color: #3D3D3D;
+      color: whitesmoke;
+      text-align: center;
+      width: 150px;
+      height: 30px;
+
+  }

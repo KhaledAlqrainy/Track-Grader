@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <title>Track-Grader</title>
+</head>
+<body>
+    <header><h1>Grades Tracker</h1></header>
+
+    <main>
+        <section id="sec1">
+            <form id="gradeform">
+                <fieldset>
+                    <br>
+                    <label for="name">Student Name</label>
+                    <br>
+                    <br>
+                    <input type="text" id="name">
+                    <br>
+                    <br>
+                    <label for="course">Course</label>
+                    <br>
+                    <br>
+                    <select id="course">
+                        <option value="Math">Math</option>
+                        <option value="English">English</option>
+                        <option value="Arabic">Arabic</option>
+                        <option value="Art">Art</option>
+                        <option value="Science">Science</option>
+
+                    </select>
+                    <br>
+                    <br>
+                    <br>
+                    <input type="submit" value="submit" id="submit">
+                    </fieldset>
+            </form>
+        </section>
+
+        <section id="sec2">
+            <table id="table">
+                <th>Student Name</th>
+                <th>Student Grade</th>
+                <th>Course</th>
+            </table>
+        </section>
+    </main>
+
+    <footer></footer>
+    <script src="app.js"></script>
+    
+</body>
+</html>
